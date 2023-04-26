@@ -1,0 +1,5 @@
+We first install this libraries
+
+GPUtil ,# for gpu Id
+psutil ,# for cpu max frequency
+uuid , # for mac address
