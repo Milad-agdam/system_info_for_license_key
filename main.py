@@ -4,8 +4,8 @@ import psutil
 from uuid import getnode as get_mac
 
 
-def HexToBin(h):
-    return bin(int(h, 16))
+# def HexToBin(h):
+#     return bin(int(h, 16))
 
 
 def create_key():
@@ -28,4 +28,5 @@ def create_key():
 
 unique_number = create_key()
 print(unique_number)
+print(len(unique_number))
 
